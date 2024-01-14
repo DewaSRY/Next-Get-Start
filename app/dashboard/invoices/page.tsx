@@ -1,9 +1,9 @@
 import { NextPage } from 'next';
 
-interface pageProps {}
+interface InvoiceProps {}
 
-const page: NextPage<pageProps> = () => {
-  return <div>Invoice</div>;
+const Invoice: NextPage<InvoiceProps> = () => {
+  return <div>App</div>;
 };
 
-export default page;
+export default Invoice;

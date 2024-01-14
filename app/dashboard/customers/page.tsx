@@ -1,9 +1,9 @@
 import { NextPage } from 'next';
 
-interface pageProps {}
+interface CustomerProps {}
 
-const page: NextPage<pageProps> = () => {
-  return <div>Customer</div>;
+const Customer: NextPage<CustomerProps> = () => {
+  return <div>App</div>;
 };
 
-export default page;
+export default Customer;
