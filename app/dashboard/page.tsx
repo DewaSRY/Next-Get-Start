@@ -1,7 +1,9 @@
-export default function Page() {
-  return (
-    <div>
-      <p>Dashboard Page</p>
-    </div>
-  );
-}
+import { NextPage } from 'next';
+
+interface blockProps {}
+
+const Block: NextPage<blockProps> = () => {
+  return <div>page</div>;
+};
+
+export default Block;
